@@ -1,0 +1,7 @@
+13:57:09.396 [main] INFO  Sample.validateText - Driver is initialized
+13:57:12.191 [main] INFO  Sample.validateText - Navigated to Reef Home page
+13:57:12.240 [main] INFO  Sample.validateText - Successfully found 'Dont't have an account' text
+13:57:21.866 [main] INFO  Sample.validateText - Browser Closed
+09:46:33.178 [main] INFO  Sample.validateText - Driver is initialized
+09:46:38.552 [main] INFO  Sample.validateText - Navigated to Reef Home page
+09:46:38.604 [main] INFO  Sample.validateText - Successfully found 'Dont't have an account' text

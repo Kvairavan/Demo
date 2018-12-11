@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="Sample.listeners"></listener>
+	<listener class-name="resources.ExtentReporterNG"></listener>
+	</listeners>
+  	<test name="Validating text on Login Page">
+    	<classes>
+      		<class name="Sample.validateText"/>
+      	</classes>
+     </test> <!-- Test -->
+    <test name="Validating Navigating to Create Account">
+    	<classes>
+     		<class name="Sample.createAccount"/>
+        </classes> 
+    </test> <!-- Test -->
+    <test name="Validating Student Login">
+    	<classes>
+      		<class name="Sample.LoginScreen"/>
+    	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

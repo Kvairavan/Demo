@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26385" started-at="2018-12-11T17:53:59Z" finished-at="2018-12-11T17:54:25Z">
+    <groups>
+    </groups>
+    <test name="Validating text on Login Page" duration-ms="5743" started-at="2018-12-11T17:53:59Z" finished-at="2018-12-11T17:54:05Z">
+      <class name="Sample.validateText">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.validateText@3349e9bb]" name="initialize" is-config="true" duration-ms="4157" started-at="2018-12-11T17:53:59Z" finished-at="2018-12-11T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Sample.validateText@3349e9bb]" name="basePageNavigation" duration-ms="48" started-at="2018-12-11T17:54:03Z" finished-at="2018-12-11T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="validateForgotPasswordLink()[pri:0, instance:Sample.validateText@3349e9bb]" name="validateForgotPasswordLink" duration-ms="1435" started-at="2018-12-11T17:54:03Z" finished-at="2018-12-11T17:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgotPasswordLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.validateText@3349e9bb]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-12-11T17:54:05Z" finished-at="2018-12-11T17:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sample.validateText -->
+    </test> <!-- Validating text on Login Page -->
+    <test name="Validating Navigating to Create Account" duration-ms="3026" started-at="2018-12-11T17:54:10Z" finished-at="2018-12-11T17:54:13Z">
+      <class name="Sample.createAccount">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.createAccount@14cd1699]" name="initialize" is-config="true" duration-ms="2702" started-at="2018-12-11T17:54:10Z" finished-at="2018-12-11T17:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateSearchFieldText()[pri:0, instance:Sample.createAccount@14cd1699]" name="validateSearchFieldText" duration-ms="124" started-at="2018-12-11T17:54:12Z" finished-at="2018-12-11T17:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFieldText -->
+        <test-method status="PASS" signature="validateSignUpPageTitle()[pri:0, instance:Sample.createAccount@14cd1699]" name="validateSignUpPageTitle" duration-ms="82" started-at="2018-12-11T17:54:13Z" finished-at="2018-12-11T17:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.createAccount@14cd1699]" name="tearDown" is-config="true" duration-ms="115" started-at="2018-12-11T17:54:13Z" finished-at="2018-12-11T17:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sample.createAccount -->
+    </test> <!-- Validating Navigating to Create Account -->
+    <test name="Validating Student Login" duration-ms="7595" started-at="2018-12-11T17:54:18Z" finished-at="2018-12-11T17:54:25Z">
+      <class name="Sample.LoginScreen">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@1bb5a082]" name="validateLogin" duration-ms="3760" started-at="2018-12-11T17:54:18Z" data-provider="getData" finished-at="2018-12-11T17:54:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kstudent@reef-education.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@1bb5a082]" name="validateLogin" duration-ms="3721" started-at="2018-12-11T17:54:22Z" data-provider="getData" finished-at="2018-12-11T17:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kstudent1@reef-education.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.LoginScreen@1bb5a082]" name="tearDown" is-config="true" duration-ms="108" started-at="2018-12-11T17:54:25Z" finished-at="2018-12-11T17:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sample.LoginScreen -->
+    </test> <!-- Validating Student Login -->
+  </suite> <!-- Suite -->
+</testng-results>

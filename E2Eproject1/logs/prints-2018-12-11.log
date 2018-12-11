@@ -1,0 +1,7 @@
+12:44:46.919 [main] INFO  Sample.createAccount - Successfully navigated to Sign Up page
+11:54:01.436 [main] INFO  Sample.validateText - Driver is initialized
+11:54:03.633 [main] INFO  Sample.validateText - Navigated to Reef Home page
+11:54:03.694 [main] INFO  Sample.validateText - Successfully found 'Dont't have an account' text
+11:54:05.131 [main] INFO  Sample.validateText - Successfully navigated to Reset Password page
+11:54:05.216 [main] INFO  Sample.validateText - Browser Closed
+11:54:13.061 [main] INFO  Sample.createAccount - 'Find Your Institution' text in search found

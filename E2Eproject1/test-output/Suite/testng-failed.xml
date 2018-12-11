@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Sample.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validating text on Login Page(failed)">
+    <classes>
+      <class name="Sample.validateText">
+        <methods>
+          <include name="validateForgotPasswordLink"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Sample.validateText -->
+    </classes>
+  </test> <!-- Validating text on Login Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

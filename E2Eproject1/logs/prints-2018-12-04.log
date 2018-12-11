@@ -1,0 +1,6 @@
+15:20:26.783 [main] INFO  Sample.validateText - Successfully found 'Dont't have an account' text
+15:20:28.404 [main] INFO  Sample.validateText - Successfully navigated to Reset Password page
+15:20:28.489 [main] INFO  Sample.validateText - Browser Closed
+15:20:37.899 [main] INFO  Sample.createAccount - 'Find Your Institution' text in search found
+15:20:38.014 [main] INFO  Sample.createAccount - Successfully navigated to Sign Up page
+12:09:54.046 [main] INFO  Sample.validateText - Driver is initialized

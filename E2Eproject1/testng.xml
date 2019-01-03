@@ -20,4 +20,9 @@
       		<class name="Sample.LoginScreen"/>
     	</classes>
   </test> <!-- Test -->
+  <test name="Validating Add Course">
+    	<classes>
+      		<class name="Sample.validateAddCourseButton"/>
+    	</classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

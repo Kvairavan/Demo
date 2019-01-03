@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29024" started-at="2018-12-11T18:46:44Z" finished-at="2018-12-11T18:47:13Z">
+  <suite name="Suite" duration-ms="38051" started-at="2019-01-03T20:02:55Z" finished-at="2019-01-03T20:03:33Z">
     <groups>
     </groups>
-    <test name="Validating text on Login Page" duration-ms="5820" started-at="2018-12-11T18:46:44Z" finished-at="2018-12-11T18:46:50Z">
+    <test name="Validating text on Login Page" duration-ms="5140" started-at="2019-01-03T20:02:55Z" finished-at="2019-01-03T20:03:00Z">
       <class name="Sample.validateText">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.validateText@f6efaab]" name="initialize" is-config="true" duration-ms="4281" started-at="2018-12-11T18:46:44Z" finished-at="2018-12-11T18:46:48Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.validateText@f6efaab]" name="initialize" is-config="true" duration-ms="3621" started-at="2019-01-03T20:02:55Z" finished-at="2019-01-03T20:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Sample.validateText@f6efaab]" name="basePageNavigation" duration-ms="42" started-at="2018-12-11T18:46:48Z" finished-at="2018-12-11T18:46:48Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Sample.validateText@f6efaab]" name="basePageNavigation" duration-ms="44" started-at="2019-01-03T20:02:58Z" finished-at="2019-01-03T20:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="validateForgotPasswordLink()[pri:0, instance:Sample.validateText@f6efaab]" name="validateForgotPasswordLink" duration-ms="1394" started-at="2018-12-11T18:46:48Z" finished-at="2018-12-11T18:46:50Z">
+        <test-method status="PASS" signature="validateForgotPasswordLink()[pri:0, instance:Sample.validateText@f6efaab]" name="validateForgotPasswordLink" duration-ms="1376" started-at="2019-01-03T20:02:58Z" finished-at="2019-01-03T20:03:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForgotPasswordLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.validateText@f6efaab]" name="tearDown" is-config="true" duration-ms="83" started-at="2018-12-11T18:46:50Z" finished-at="2018-12-11T18:46:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.validateText@f6efaab]" name="tearDown" is-config="true" duration-ms="80" started-at="2019-01-03T20:03:00Z" finished-at="2019-01-03T20:03:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Sample.validateText -->
     </test> <!-- Validating text on Login Page -->
-    <test name="Validating Navigating to Create Account" duration-ms="3773" started-at="2018-12-11T18:46:55Z" finished-at="2018-12-11T18:46:58Z">
+    <test name="Validating Navigating to Create Account" duration-ms="3323" started-at="2019-01-03T20:03:05Z" finished-at="2019-01-03T20:03:08Z">
       <class name="Sample.createAccount">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.createAccount@4218d6a3]" name="initialize" is-config="true" duration-ms="3442" started-at="2018-12-11T18:46:55Z" finished-at="2018-12-11T18:46:58Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.createAccount@4218d6a3]" name="initialize" is-config="true" duration-ms="3031" started-at="2019-01-03T20:03:05Z" finished-at="2019-01-03T20:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateSearchFieldText()[pri:0, instance:Sample.createAccount@4218d6a3]" name="validateSearchFieldText" duration-ms="116" started-at="2018-12-11T18:46:58Z" finished-at="2018-12-11T18:46:58Z">
+        <test-method status="PASS" signature="validateSearchFieldText()[pri:0, instance:Sample.createAccount@4218d6a3]" name="validateSearchFieldText" duration-ms="115" started-at="2019-01-03T20:03:08Z" finished-at="2019-01-03T20:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFieldText -->
-        <test-method status="PASS" signature="validateSignUpPageTitle()[pri:0, instance:Sample.createAccount@4218d6a3]" name="validateSignUpPageTitle" duration-ms="103" started-at="2018-12-11T18:46:58Z" finished-at="2018-12-11T18:46:58Z">
+        <test-method status="PASS" signature="validateSignUpPageTitle()[pri:0, instance:Sample.createAccount@4218d6a3]" name="validateSignUpPageTitle" duration-ms="67" started-at="2019-01-03T20:03:08Z" finished-at="2019-01-03T20:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignUpPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.createAccount@4218d6a3]" name="tearDown" is-config="true" duration-ms="108" started-at="2018-12-11T18:46:58Z" finished-at="2018-12-11T18:46:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.createAccount@4218d6a3]" name="tearDown" is-config="true" duration-ms="106" started-at="2019-01-03T20:03:08Z" finished-at="2019-01-03T20:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Sample.createAccount -->
     </test> <!-- Validating Navigating to Create Account -->
-    <test name="Validating Student Login" duration-ms="9406" started-at="2018-12-11T18:47:03Z" finished-at="2018-12-11T18:47:13Z">
+    <test name="Validating Student Login" duration-ms="8118" started-at="2019-01-03T20:03:13Z" finished-at="2019-01-03T20:03:21Z">
       <class name="Sample.LoginScreen">
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="validateLogin" duration-ms="4419" started-at="2018-12-11T18:47:03Z" data-provider="getData" finished-at="2018-12-11T18:47:08Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="validateLogin" duration-ms="3973" started-at="2019-01-03T20:03:13Z" data-provider="getData" finished-at="2019-01-03T20:03:17Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="validateLogin" duration-ms="4875" started-at="2018-12-11T18:47:08Z" data-provider="getData" finished-at="2018-12-11T18:47:13Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="validateLogin" duration-ms="4032" started-at="2019-01-03T20:03:17Z" data-provider="getData" finished-at="2019-01-03T20:03:21Z">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="tearDown" is-config="true" duration-ms="107" started-at="2018-12-11T18:47:13Z" finished-at="2018-12-11T18:47:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.LoginScreen@65fb9ffc]" name="tearDown" is-config="true" duration-ms="107" started-at="2019-01-03T20:03:21Z" finished-at="2019-01-03T20:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Sample.LoginScreen -->
     </test> <!-- Validating Student Login -->
+    <test name="Validating Add Course" duration-ms="6445" started-at="2019-01-03T20:03:26Z" finished-at="2019-01-03T20:03:33Z">
+      <class name="Sample.validateAddCourseButton">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Sample.validateAddCourseButton@515c6049]" name="initialize" is-config="true" duration-ms="2942" started-at="2019-01-03T20:03:26Z" finished-at="2019-01-03T20:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAddCourseButton(java.lang.String, java.lang.String)[pri:0, instance:Sample.validateAddCourseButton@515c6049]" name="validateAddCourseButton" duration-ms="3418" started-at="2019-01-03T20:03:29Z" data-provider="getData" finished-at="2019-01-03T20:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kstudent@reef-education.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddCourseButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Sample.validateAddCourseButton@515c6049]" name="tearDown" is-config="true" duration-ms="82" started-at="2019-01-03T20:03:33Z" finished-at="2019-01-03T20:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sample.validateAddCourseButton -->
+    </test> <!-- Validating Add Course -->
   </suite> <!-- Suite -->
 </testng-results>

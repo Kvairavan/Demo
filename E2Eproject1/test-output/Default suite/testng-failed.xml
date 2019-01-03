@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sample.validateText">
+      <class name="Sample.validateAddCoursebutton">
         <methods>
-          <include name="validateForgotPasswordLink"/>
-          <include name="initialize"/>
+          <include name="validateAddCourseButton" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- Sample.validateText -->
+      </class> <!-- Sample.validateAddCoursebutton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

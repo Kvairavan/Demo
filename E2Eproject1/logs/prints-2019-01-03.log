@@ -1,0 +1,6 @@
+14:02:58.844 [main] INFO  Sample.validateText - Navigated to Reef Home page
+14:02:58.905 [main] INFO  Sample.validateText - Successfully found 'Dont't have an account' text
+14:03:00.284 [main] INFO  Sample.validateText - Successfully navigated to Reset Password page
+14:03:00.366 [main] INFO  Sample.validateText - Browser Closed
+14:03:08.528 [main] INFO  Sample.createAccount - 'Find Your Institution' text in search found
+14:03:08.597 [main] INFO  Sample.createAccount - Successfully navigated to Sign Up page

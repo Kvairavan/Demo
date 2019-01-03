@@ -1,1 +1,3 @@
-12:46:58.865 [main] INFO  Sample.createAccount - Successfully navigated to Sign Up page
+14:03:27.594 [main] INFO  Sample.validateAddCourseButton - Driver is initialized
+14:03:29.775 [main] INFO  Sample.validateAddCourseButton - Navigated to Home Page
+14:03:33.276 [main] INFO  Sample.validateAddCourseButton - Browser Closed

@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -37,7 +38,29 @@ public class validateAddCourseButton extends base{
 		Thread.sleep(3000);
 		c.add_a_course().click();
 		Assert.assertEquals(driver.getTitle(), "Reef Add Course - Find Your Institution");
+		log.info("Navigated to Add Course page");
+		driver.navigate().back();
 	}
+	@Test
+	public void validateSelectCourse() throws InterruptedException
+	{
+		
+		CoursesPage c=new CoursesPage(driver);
+		Thread.sleep(3000);
+		for (WebElement E:c.get_course_list())
+		{
+			//System.out.println(E.getAttribute("innerHTML"));
+			if (E.getAttribute("innerHTML").contains("Creating a course"))
+			{
+				E.click();
+				log.info("Found course 'Creating a course' in active course list");
+				Assert.assertEquals(c.coursepage().getText(), "Creating a course");
+				break;
+			}
+			
+		}
+	}
+		
 	@AfterTest
 	public void tearDown()
 	{

@@ -1,0 +1,7 @@
+16:08:14.970 [main] INFO  Sample.validateText - Browser Closed
+16:08:23.220 [main] INFO  Sample.createAccount - 'Find Your Institution' text in search found
+16:08:23.293 [main] INFO  Sample.createAccount - Successfully navigated to Sign Up page
+16:08:42.526 [main] INFO  Sample.validateAddCourseButton - Driver is initialized
+16:08:44.820 [main] INFO  Sample.validateAddCourseButton - Navigated to Home Page
+16:08:48.217 [main] INFO  Sample.validateAddCourseButton - Navigated to Add Course page
+16:08:51.342 [main] INFO  Sample.validateAddCourseButton - Found course 'Creating a course' in active course list
